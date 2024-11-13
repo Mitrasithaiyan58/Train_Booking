@@ -1,0 +1,87 @@
+.signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('https://tse4.mm.bing.net/th?id=OIP.D8og2TgKSsLg9cElvXG_CwHaEo&pid=Api&P=0&h=180') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+.signup-container {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 500px;
+}
+
+.signup-container header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signup-container header h1 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 2.2em;
+}
+
+.signup-container header p {
+  color: #666;
+  font-size: 1em;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form label {
+  color: #555;
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+
+.signup-form input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.signup-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-form button:hover {
+  background-color: #0b17f1;
+}
+
+.signup-container footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-container footer p {
+  color: #555;
+  font-size: 0.9em;
+}
+
+.signup-container footer a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.signup-container footer a:hover {
+  text-decoration: underline;
+}
